@@ -2,9 +2,9 @@
 
 ## Server setup
 
-### Overall
+### Frontend
 
-create `.env.local` under root directory `/`, add API keys copied from pusher.com, should be like;
+create `.env.local` add API keys copied from pusher.com, should be like;
 
 ```
 app_id = <your_app_id>
@@ -12,8 +12,6 @@ key = <your_public_key>
 secret = <secret>
 cluster = <cluster>
 ```
-
-### Frontend
 
 run the following commands under under `/frontend`:
 
