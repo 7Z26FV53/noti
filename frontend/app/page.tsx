@@ -26,7 +26,9 @@ export default function Home() {
     channel.bind('event-click', function(data) {
       alert(JSON.stringify(data));
     });
-
+    return () => {
+      pusher.unsubscribe("my-channel");
+    };
   }, []);
 
   const handleClick = async (e) => {
