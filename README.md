@@ -16,11 +16,9 @@ cluster = <cluster>
 run the following commands under under `/frontend`:
 
 ```bash
+npm i
+npm run build
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 ### Backend
